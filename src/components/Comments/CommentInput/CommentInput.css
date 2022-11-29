@@ -1,0 +1,67 @@
+.comment-button {
+  background-color: #92353d;
+  color: #b5b5b5;
+  font-style: italic;
+  font-weight: 600;
+  font-size: larger;
+}
+.spirit-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #92353d;
+  width: 100%;
+  padding-top: 20px;
+}
+label {
+  color: #b5b5b5;
+  background-color: #92353d;
+  font-size: 18px;
+}
+.field {
+  background-color: #92353d;
+  width: 100%;
+  margin: 0.7rem 0;
+}
+.control {
+  margin-top: 0.5rem;
+  background-color: #92353d;
+}
+.control input {
+  flex: 1;
+  width: 100%;
+  min-height: 40px;
+  min-width: 300px;
+  font-size: 18px;
+  line-height: 20px;
+  background: #d9d9d9;
+  border: 2px solid #ff4655;
+  padding: 0 1rem;
+  outline: none;
+  border-radius: 6px;
+}
+.control textarea {
+  flex: 1;
+  width: 100%;
+  min-height: 100px;
+  min-width: 300px;
+  font-size: 18px;
+  line-height: 20px;
+  background: #d9d9d9;
+  border: 2px solid #ff4655;
+  padding: 0 1rem;
+  outline: none;
+  border-radius: 6px;
+}
+.spirit__add-button {
+  flex: 1;
+  width: 100%;
+  min-height: 40px;
+  background: #ff4655;
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}

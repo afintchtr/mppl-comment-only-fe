@@ -1,0 +1,30 @@
+.comment-box {
+  margin: 1rem 0;
+  background: black;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+}
+.comment-box__head {
+  font-size: 14px;
+  padding: 8px 30px;
+  display: flex;
+  background-color: #444;
+  border-bottom: 1px solid white;
+}
+.head__name {
+  background-color: #444;
+  flex-basis: 66%;
+  font-weight: 600;
+}
+.head__datetime {
+  background-color: #444;
+  flex-basis: 34%;
+  text-align: end;
+  font-weight: 300;
+  color: rgb(172, 172, 172);
+}
+
+.comment-box__body {
+  padding: 20px 30px;
+}
